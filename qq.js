@@ -1,3 +1,4 @@
+ <script src="https://ajax.google...jquery.min.js"></script>
 function loop($swap) {
     var next = $swap.find("li.visible").removeClass("visible").index() + 1;
   
