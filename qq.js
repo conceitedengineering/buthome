@@ -1,4 +1,3 @@
- <script src="https://ajax.google...jquery.min.js"></script>
 function loop($swap) {
     var next = $swap.find("li.visible").removeClass("visible").index() + 1;
   
@@ -14,7 +13,7 @@ function loop($swap) {
     }, 2000);
   }
   
-  $(function () {
+  (function () {
     $(".swap").each(function () {
       var $this = $(this);
   
