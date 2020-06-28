@@ -13,7 +13,7 @@ function loop($swap) {
     }, 2000);
   }
   
-  $(function () {
+  (function () {
     $(".swap").each(function () {
       var $this = $(this);
   
