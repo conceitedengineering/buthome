@@ -88,6 +88,7 @@ body {
   }
   body {
     margin: 0;            /* Reset default margin */
+   
 }
 iframe {
     display: inline-block;       /* iframes are inline by default */
@@ -95,8 +96,12 @@ iframe {
     border: none;         /* Reset default border */
     height: 100vh;        /* Viewport-relative units */
     width: 100vw;
+    cursor: url("/hole_1f573.png"), pointer;
 }
 .main {
 margin-top: 5rem;
 margin-bottom: auto;
+}
+html {
+  cursor: url("/hole_1f573.png"), pointer;
 }

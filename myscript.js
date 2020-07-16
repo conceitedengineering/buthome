@@ -43,3 +43,10 @@ function openCity(evt, cityName) {
     document.getElementById(cityName).style.display = "block";
     evt.currentTarget.className += " active";
   }
+
+  var documentTitle = document.title + " * But, Whole Press * ACAB * BLACK LIVES MATTER * ";
+
+  (function titleMarquee() {
+      document.title = documentTitle = documentTitle.substring(1) + documentTitle.substring(0,1);
+      setTimeout(titleMarquee, 250);
+  })();
