@@ -96,7 +96,7 @@ iframe {
     border: none;         /* Reset default border */
     height: 100vh;        /* Viewport-relative units */
     width: 100vw;
-    cursor: url("/hole_1f573.png"), pointer;
+    cursor: url("https://github.com/conceitedengineering/buthome/blob/master/hole_1f573.png"), pointer;
 }
 .main {
 margin-top: 5rem;
