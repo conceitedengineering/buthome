@@ -1,0 +1,107 @@
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v16/S6uyw4BMUTPHjx4wWw.ttf) format('truetype');
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  overflow: hidden;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: bold;
+  /*
+  background: linear-gradient(270deg, rgba(218,231,34,1) 0%, rgba(255,110,96,1) 26%, rgba(235,246,8,1) 100%);
+*/
+}
+.box {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  font-family: 'lato' , sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+  stroke: 0.0px;
+  color: black;
+  text-decoration: underline;
+}
+.box .swap {
+  display: inline-block;
+ 
+  position: relative;
+  transition-duration: 0.5s;
+  transition-property: transform width;
+}
+.box .swap li {
+  position: absolute;
+  opacity: 0;
+  white-space: nowrap;
+  color: black;
+  transition-duration: 0.5s;
+  transition-property: opacity;
+}
+.box .swap li.visible {
+  opacity: 1;
+}
+
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    
+  }
+  
+  /* Style the buttons that are used to open the tab content */
+  .tab button {
+    background-color: yellow;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-family:'Work Sans', sans-serif;
+  font-weight: bold;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: #ddd;
+  }
+  
+  /* Create an active/current tablink class */
+  .tab button.active {
+    background-color: white;
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+    overflow: scroll;
+    font-family: "Lato", sans-serif;
+  font-weight: bold;
+  }
+  body {
+    margin: 0;            /* Reset default margin */
+   
+}
+iframe {
+    display: inline-block;       /* iframes are inline by default */
+    background: #000;
+    border: none;         /* Reset default border */
+    height: 100vh;        /* Viewport-relative units */
+    width: 100vw;
+    cursor: url("/hole_1f573.png"), pointer;
+}
+.main {
+margin-top: 5rem;
+margin-bottom: auto;
+}
+html {
+  cursor: url("/hole_1f573.png"), pointer;
+}
